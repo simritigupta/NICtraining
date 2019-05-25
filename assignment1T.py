@@ -27,5 +27,6 @@ for i in range(1,6):
     cpu=int(input("Enter the number of cpu used:"))
     ram=int(input("Enter the ram:"))
     Num_VMs=int(input("Enter the number of virtual machines used:"))
-    print("server"+ str(i)," ",server_utilization(cpu,ram,Num_VMs))    
+    print("server"+ str(i)," ",server_utilization(cpu,ram,Num_VMs))   
+print("assignment1 done")    
     
